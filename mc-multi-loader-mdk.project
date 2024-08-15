@@ -1,0 +1,16 @@
+{
+  "config_version": "1.0.0",
+  "game_version": "1.18.2",
+  "author": "Markus Bordihn",
+  "mod_name": "Easy Sound",
+  "license": "MIT",
+  "description": "Description for Easy Sound ...",
+  "mod_id": "easy_sound",
+  "class_name": "EasySound",
+  "class_namespace": "de.markusbordihn.easysound",
+  "class_package_name": "easysound",
+  "vendor_name": "markusbordihn",
+  "display_url": "https://curseforge.com/minecraft/mc-mods/easy_sound",
+  "issue_tracker_url": "https://github.com/MarkusBordihn/Easy-Sound/issues",
+  "confirmed": true
+}

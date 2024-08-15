@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "easy_sound",
+  "version": "${version}",
+  "name": "Easy Sound",
+  "description": "Description for Example Mod ...",
+  "authors": [
+    "Markus Bordihn"
+  ],
+  "contact": {
+    "homepage": "https://curseforge.com/minecraft/mc-mods/easy_sound",
+    "issues": "https://github.com/MarkusBordihn/Easy-Sound/issues"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.markusbordihn.easysound.EasySound"
+    ],
+    "client": [
+      "de.markusbordihn.easysound.EasySoundClient"
+    ]
+  },
+  "mixins": [],
+  "accessWidener": "easysound.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15",
+    "fabric": "*",
+    "minecraft": "1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "tooltipfix": "*"
+  }
+}
